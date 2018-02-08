@@ -1,18 +1,18 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## Shawn Yan
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+- Location: Dalian, China.
+- Expertise: Database Management & Performance
+- Certificate: MySQL OCP, RHCE, PMP, ITIL
+- Personal Interests: Reading, Traveling and Yoga
+- Github: https://github.com/shawn0915
+- WeChat Official Account: mysqloffice
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+![OCP_MySQL](../assets/img/OCP_MySQL5.6DBAdmin_clr.gif)
 
-
-[jekyll-organization]: https://github.com/jekyll
+![wechat](../assets/img/qrcode_for_gh_932ea5990ac2_344.jpg)
