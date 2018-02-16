@@ -2,6 +2,18 @@ title: 少安事务所
 description: Read, Record, and Review.
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
 
-github_username: Shawn Yan
+#baseurl: http://shawn0915.github.io
+url: http://localhost:4000
+
+#timezone: Asia/Shanghai
+#avatar: https://avatars0.githubusercontent.com/u/17957066?s=400&u=b39871eafed2e90aecd42910d9cd8bc642618177&v=4
+avatar: assets/img/1.jpg
+author: ShawnYan
+
+github:
+  is_user_page: true
+  owner_url: http://github.com/shawn0915
+  owner_name: Shawn Yan
+  
