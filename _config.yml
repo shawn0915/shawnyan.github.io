@@ -4,7 +4,7 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
 
-baseurl: http://shawn0915.github.io
+baseurl: https://shawn0915.github.io
 #url: http://localhost:4000
 
 timezone: Asia/Shanghai
