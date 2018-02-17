@@ -1,4 +1,13 @@
-# MySQL书单
+---
+layout: post
+title: "MySQL书单推荐"
+date: 2018-02-07 12:01:01 +0800
+author: 严少安
+categories: mysql
+tag: mysql mariadb percona galera
+---
+
+![]({{ "/assets/img_mysql/mysql-with-m-p.png" | absolute_url }})
 
 > 知行合一
 

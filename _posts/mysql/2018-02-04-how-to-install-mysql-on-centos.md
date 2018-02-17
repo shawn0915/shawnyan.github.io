@@ -7,7 +7,6 @@ categories: mysql
 tag: mysql centos install
 ---
 
-
 ![]({{ "/assets/img_mysql/mysql-with-m-p.png" | absolute_url }})
 
 MySQL是时下最流行的开源关系型数据库之一，下面来简要介绍三种安装MySQL Database的方案。

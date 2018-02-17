@@ -1,4 +1,12 @@
-# 初见 MariaDB Galera Cluster
+---
+layout: post
+title: "初见 MariaDB Galera Cluster"
+date: 2018-02-05 12:01:01 +0800
+author: 严少安
+categories: mysql
+tag: mysql mariadb galera
+---
+
 
 基于MySQL实现的高可用方案有很多，如MySQL Group Cluster/MHA/MMM/MyCAT等等，下面来初步了解一下`MariaDB Galera Cluster`。
 
@@ -10,7 +18,7 @@
 >
 > `MariaDB Galera Cluster` 是MariaDB对Galera Cluster的封装。另一个对Galera Cluster的封装是 `Percona XtraDB Cluster`，简称PXC
 
-![](assets/galera_replication1.png)
+![]({{ "/assets/img_mysql/galera_replication1.png" | absolute_url }})
 
 ## Feature
 
@@ -79,9 +87,8 @@ yum --disablerepo=\* --enablerepo=mariadb list available
 sudo yum install MariaDB-server MariaDB-client
 ```
 
-![](assets/a3-img-01.png)
-![](assets/a3-img-02.png)
-
+![]({{ "/assets/img_mysql/a3-img-01.png" | absolute_url }})
+![]({{ "/assets/img_mysql/a3-img-02.png" | absolute_url }})
 
 ### Step3. 配置Galera
 
@@ -123,7 +130,7 @@ sudo systemctl status mariadb
 SHOW STATUS LIKE 'wsrep_%';
 ```
 
-![](assets/a3-img-03.png)
+![]({{ "/assets/img_mysql/a3-img-03.png" | absolute_url }})
 
 ## Summary
 
