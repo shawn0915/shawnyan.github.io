@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CentOS-7下安装MySQL-5.7的三种方案"
-date:   2018-02-04 12:01:01 +0800
+date:   2018-02-04 15:01:01 +0800
 author: 严少安
 categories: mysql
 tag: mysql centos install
