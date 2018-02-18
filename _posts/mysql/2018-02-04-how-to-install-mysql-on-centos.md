@@ -5,9 +5,10 @@ date:   2018-02-04 15:01:01 +0800
 author: 严少安
 categories: mysql
 tag: mysql centos install
+count: a2
 ---
 
-![]({{ "/assets/img_mysql/mysql-with-m-p.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_mysql/mysql-with-m-p.png)
 
 MySQL是时下最流行的开源关系型数据库之一，下面来简要介绍三种安装MySQL Database的方案。
 
@@ -54,8 +55,8 @@ sudo yum-config-manager --enable mysql57-community
 sudo yum --disablerepo=\* --enablerepo=mysql57-community list available
 ```
 
-![]({{ "/assets/img_mysql/a2-img-01.png" | absolute_url }})
-![]({{ "/assets/img_mysql/a2-img-02.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_mysql/a2/a2-img-01.png)
+![](https://shawn0915.github.io/assets/img_mysql/a2/a2-img-02.png)
 
 - Step3. 安装mysql-community-server
 
@@ -66,7 +67,7 @@ sudo yum --disablerepo=\* --enablerepo=mysql57-community list available
 sudo yum install -y mysql-community-server.x86_64 mysql-community-libs.x86_64 mysql-community-common.x86_64 mysql-community-client.x86_64
 ```
 
-![]({{ "/assets/img_mysql/a2-img-03.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_mysql/a2/a2-img-03.png)
 
 此时，MySQL Server已安装完成，且使用systemd进行管理。
 
@@ -81,7 +82,7 @@ sudo systemctl status mysqld
 sudo systemctl start mysqld
 ```
 
-![]({{ "/assets/img_mysql/a2-img-04.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_mysql/a2/a2-img-04.png)
 
 - Step5. 登录数据库
 
@@ -89,8 +90,7 @@ sudo systemctl start mysqld
 mysql -uroot -p
 ```
 
-![]({{ "/assets/img_mysql/a2-img-05.png" | absolute_url }})
-
+![](https://shawn0915.github.io/assets/img_mysql/a2/a2-img-05.png)
 
 ## 方案二：安装MySQL的Linux二进制包
 

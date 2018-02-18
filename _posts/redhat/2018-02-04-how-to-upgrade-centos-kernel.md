@@ -5,9 +5,10 @@ date: 2018-02-04 12:01:01 +0800
 author: 严少安
 categories: redhat
 tag: redhat centos kernel
+count: a1
 ---
 
-![]({{ "/assets/img_redhat/centos-logo.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_redhat/centos-logo.png)
 
 在实验环境下，已安装了最新的CentOS 7.4操作系统，现在需要升级内核版本。下面提供三种常用方案，以供参考。
 
@@ -35,17 +36,17 @@ sudo yum list kernel
 sudo yum update -y kernel
 ```
 
-![]({{ "/assets/img_redhat/a1-img/img-01.png" | absolute_url }})
-![]({{ "/assets/img_redhat/a1-img/img-02.png" | absolute_url }})
-![]({{ "/assets/img_redhat/a1-img/img-03.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-01.png)
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-02.png)
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-03.png)
 
 此时，已安装成功，但若想将系统运行在新版本的kernel上，则需要重新启动操作系统。
 
-![]({{ "/assets/img_redhat/a1-img/img-04.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-04.png)
 
 重启完成，至此，Kernel版本已升级至`3.10.0-693.17.1.el7.x86_64`
 
-![]({{ "/assets/img_redhat/a1-img/img-05.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-05.png)
 
 
 ## 方案二：大版本升级
@@ -67,23 +68,24 @@ sudo yum --disablerepo=\* --enablerepo=elrepo-kernel repolist
 sudo yum --disablerepo=\* --enablerepo=elrepo-kernel list kernel*
 ```
 
-![]({{ "/assets/img_redhat/a1-img/img-06.png" | absolute_url }})
-![]({{ "/assets/img_redhat/a1-img/img-07.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-06.png)
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-07.png)
+
 
 确认要安装的kernel，这里安装最新版本的kernel-ml
 ```bash
 sudo yum --disablerepo=\* --enablerepo=elrepo-kernel install -y kernel-ml.x86_64
 ```
 
-![]({{ "/assets/img_redhat/a1-img/img-08.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-08.png)
 
 重启，选择新版本内核进入系统。
 
-![]({{ "/assets/img_redhat/a1-img/img-09.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-09.png)
 
 此时，操作系统使用的内核已升级为`4.15.0-1.el7.elrepo.x86_64`
 
-![]({{ "/assets/img_redhat/a1-img/img-10.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-10.png)
 
 最后一步，建议将内核工具包一并升级
 
@@ -94,7 +96,7 @@ sudo yum remove kernel-tools-libs.x86_64 kernel-tools.x86_64
 sudo yum --disablerepo=\* --enablerepo=elrepo-kernel install -y kernel-ml-tools.x86_64
 ```
 
-![]({{ "/assets/img_redhat/a1-img/img-11.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-11.png)
 
 至此，升级完成。
 
@@ -117,8 +119,8 @@ sudo grub2-set-default 0
 sudo grub2-mkconfig -o /etc/grub2.cfg
 ```
 
-![]({{ "/assets/img_redhat/a1-img/img-12.png" | absolute_url }})
-![]({{ "/assets/img_redhat/a1-img/img-13.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-12.png)
+![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-13.png)
 
 
 ## 术语解析

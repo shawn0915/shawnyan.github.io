@@ -5,9 +5,10 @@ date: 2018-02-07 12:01:01 +0800
 author: 严少安
 categories: mysql
 tag: mysql mariadb percona galera
+count: a4
 ---
 
-![]({{ "/assets/img_mysql/mysql-with-m-p.png" | absolute_url }})
+![](https://shawn0915.github.io/assets/img_mysql/mysql-with-m-p.png)
 
 > 知行合一
 

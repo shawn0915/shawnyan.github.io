@@ -17,6 +17,7 @@ github:
   is_user_page: true
   owner_url: http://github.com/shawn0915
   owner_name: Shawn Yan
+  repository_name: shawn0915.github.io
 
 # social links
 github_username: shawn0915
@@ -25,5 +26,5 @@ github_username: shawn0915
 # https://jekyllrb.com/docs/pagination/#enable-pagination
 # Plugin jekyll-paginate-v2 is not supported by GitHub Pages.
 plugins: [jekyll-paginate]
-paginate: 2
+paginate: 10
 paginate_path: "/:num"
