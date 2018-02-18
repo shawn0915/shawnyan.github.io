@@ -4,6 +4,7 @@
 
 - host: github
 - theme: Jekyll Minimal
+- editor: IDEA
 - image: [七牛](https://portal.qiniu.com/signup?code=3lqod4da5p842)
 
 

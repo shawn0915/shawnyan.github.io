@@ -5,7 +5,7 @@ date: 2018-02-04 12:01:01 +0800
 author: 严少安
 categories: redhat
 tag: redhat centos kernel
-count: a1
+excerpt: a1
 ---
 
 ![](https://shawn0915.github.io/assets/img_redhat/centos-logo.png)

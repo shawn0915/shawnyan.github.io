@@ -5,7 +5,7 @@ date: 2018-02-05 12:01:01 +0800
 author: 严少安
 categories: mysql
 tag: mysql mariadb galera
-count: a3
+excerpt: a3
 ---
 
 
