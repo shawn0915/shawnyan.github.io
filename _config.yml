@@ -10,13 +10,13 @@ theme: jekyll-theme-minimal
 #timezone: Asia/Shanghai
 #avatar: https://avatars0.githubusercontent.com/u/17957066?s=400&u=b39871eafed2e90aecd42910d9cd8bc642618177&v=4
 #avatar: assets/img/1.jpg
-avatar: assets/img/yoga_and_linux.png
+avatar: assets/img/head2.png
 author: ShawnYan
 email: shawn2016@aliyun.com
 
 github:
   is_user_page: true
-  owner_url: http://github.com/shawn0915
+  owner_url: https://github.com/shawn0915
   owner_name: Shawn Yan
   repository_name: shawn0915.github.io
 

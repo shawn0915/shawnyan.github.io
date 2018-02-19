@@ -15,4 +15,4 @@ permalink: /about/
 
 ![OCP_MySQL](../assets/img/OCP_MySQL5.6DBAdmin_clr.gif)
 
-![wechat](../assets/img/qrcode_for_gh_932ea5990ac2_344.jpg)
+![wechat](../assets/wx/qrcode_for_gh_932ea5990ac2_258.jpg)
