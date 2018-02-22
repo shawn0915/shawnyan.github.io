@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "关于MySQL的锁和InnoDB Lock"
+title: "关于MySQL的锁和InnoDB Locking"
 date: 2018-02-20 20:31:01 +0800
 author: 严少安
 categories: mysql
 tag: mysql mariadb lock innodb
 excerpt: a15
 ---
-About lock in MySQL and InnoDB lock
+About lock in MySQL and InnoDB locking
 
 > I reside in the present.
 
@@ -27,7 +27,7 @@ About lock in MySQL and InnoDB lock
 ## MySQL中四种类型的锁
 
 - Table, 表锁
-- Row, 表锁
+- Row, 行锁
 - Page, 页锁
 - Matedata, 元数据锁
 
