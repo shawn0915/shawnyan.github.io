@@ -33,7 +33,9 @@ excerpt: a1
 
 ```bash
 sudo yum list kernel
+sudo yum list kernel --showduplicates
 sudo yum update -y kernel
+# yum update kernel-3.10.0-693.21.1.el7
 ```
 
 ![](https://shawn0915.github.io/assets/img_redhat/a1-img/img-01.png)

@@ -55,6 +55,7 @@ sudo yum install docker-ce
 ```bash
 sudo systemctl enable docker
 sudo systemctl start docker
+sudo systemctl status docker
 ```
 
 ![a5-img-01]()
