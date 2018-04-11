@@ -62,4 +62,4 @@ oracle/database:11.2.0.2-xe
 
 ## Footnotes
 
-[^1]: https://github.com/shawn0915/shawnoffice-toolkit/tree/master/OracleDatabase
+[^1]: https://github.com/oracle/docker-images/tree/master/OracleDatabase
