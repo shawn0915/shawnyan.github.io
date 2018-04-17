@@ -5,7 +5,7 @@ date: 2018-04-11 15:01:01 +0800
 author: Shawn Yan
 categories: python
 tag: python pip
-excerpt: a21
+excerpt: a22
 ---
 
 ## Environment

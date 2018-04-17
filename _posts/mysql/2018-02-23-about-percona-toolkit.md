@@ -38,6 +38,7 @@ sudo yum install -y strace
 sudo yum install -y perl-ExtUtils-CBuilder
 sudo yum install -y perl-ExtUtils-MakeMaker
 sudo yum install -y perl-CPAN
+sudo yum install -y perl-Digest-MD5
 ```
 
 
@@ -48,6 +49,42 @@ DATA SOURCE NAME
 h=127.0.0.1,P=3306,u=root,D=test,t=author
 ```
 
+## List
+
+```bash
+pt-align
+pt-archiver
+pt-config-diff
+pt-deadlock-logger
+pt-diskstats
+pt-duplicate-key-checker
+pt-fifo-split
+pt-find
+pt-fingerprint
+pt-fk-error-logger
+pt-heartbeat
+pt-index-usage
+pt-ioprofile
+pt-kill
+pt-mext
+pt-mysql-summary
+pt-online-schema-change
+pt-pmp
+pt-query-digest
+pt-show-grants
+pt-sift
+pt-slave-delay
+pt-slave-find
+pt-slave-restart
+pt-stalk
+pt-summary
+pt-table-checksum
+pt-table-sync
+pt-table-usage
+pt-upgrade
+pt-variable-advisor
+pt-visual-explain
+```
 
 ## Classify(34)
 当前版本，该工具集共由34个工具组成，按状态、分析、监控、备份、在线变更、主从、实用小工具和MongoDB等功能分类，并做如下简单说明。
@@ -275,6 +312,18 @@ mysql@vm-db01:~$
 - pt-mongodb-query-digest
 - pt-mongodb-summary
 
+
+## Mark
+
+
+```bash
+[root@vm-db01 bin]# ./pt-diskstats 
+Can't locate Digest/MD5.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at ./pt-diskstats line 1221.
+BEGIN failed--compilation aborted at ./pt-diskstats line 1221.
+
+```
+
+Resolve: `yum install perl-Digest-MD5`
 
 ## Reference
 
