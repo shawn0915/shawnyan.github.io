@@ -10,18 +10,6 @@ excerpt: a26
 
 ## InnoTop
 
-- Dependencies
-
-```bash
-yum install perl-DBI
-yum install perl-DBD-MySQL
-yum install perl-TermReadKey
-yum install perl-Time-HiRes
-```
-
-- innotop v1.11.4
-
-https://github.com/shawn0915/innotop
 
 ## Compile
 
@@ -41,7 +29,7 @@ yum install -y perl-DBD-MySQL
 yum install -y perl-TermReadKey
 yum install -y perl-Time-HiRes
 
-# 
+# Compile
 perl Makefile.PL
 make
 make install
@@ -81,3 +69,4 @@ Usage: innotop <options> <innodb-status-file>
 
 - https://waffle.io/innotop/innotop
 - https://github.com/innotop/innotop
+- https://github.com/shawn0915/innotop

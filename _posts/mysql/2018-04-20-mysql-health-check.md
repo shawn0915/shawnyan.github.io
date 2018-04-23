@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "About InnoTop"
+title: "MySQL Health Check"
 date: 2018-04-20 15:15:01 +0800
 author: Shawn Yan
 categories: mysql
