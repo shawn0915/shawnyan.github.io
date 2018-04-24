@@ -10,3 +10,13 @@ excerpt: a24
 
 ## MariaDB with ProxySQL
 
+
+
+
+## Reference
+
+- http://www.proxysql.com/
+- https://github.com/sysown/proxysql/blob/master/doc/admin_tables.md
+- http://proxysql.blogspot.jp/
+- https://github.com/sysown/proxysql/wiki/Configuring-ProxySQL
+- https://github.com/sysown/proxysql/wiki/Global-variables

@@ -112,8 +112,8 @@ pt-visual-explain
 - pt-mext
 
 `mysqladmin ext`/`show global status;`
-获取全局状态信息
-
+获取全局状态信息，
+查看一组变量的当前值、上一次查询的值，以及它们之间的差值
 
 ### Analyze(9)
 分析
@@ -132,7 +132,7 @@ pt-visual-explain
 
 - pt-index-usage
 
-依据`slow log`分析index使用情况
+依据`slow log`分析index使用情况，对log中的每条查询进行EXPLAIN操作，然后打印出关于索引和查询的报告
 
 - pt-table-usage
 
@@ -151,7 +151,7 @@ pt-duplicate-key-checker --host localhost
 
 - pt-upgrade
 
-验证比较两个host的结果集一致性
+验证比较两个host的结果集一致性，检查新版本中运行的SQL是否与老版本一样，返回相同的结果。
 
 - pt-variable-advisor
 

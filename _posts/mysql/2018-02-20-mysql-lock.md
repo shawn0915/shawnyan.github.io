@@ -33,6 +33,8 @@ About lock in MySQL and InnoDB locking
 
 > 其中，page lock only in BDB storage engine.
 
+> 其他，galera cluster lock
+
 ### Metadata Lock
 
 - 检查锁状态

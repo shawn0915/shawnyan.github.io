@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "初见 MariaDB Galera Cluster"
+title: "Hello MariaDB Galera Cluster"
 date: 2018-02-05 12:01:01 +0800
-author: 严少安
+author: Shawn Yan
 categories: mysql
 tag: mysql mariadb galera
 excerpt: a3
@@ -133,11 +133,25 @@ sudo systemctl status mariadb
 SHOW STATUS LIKE 'wsrep_%';
 ```
 
+monitor status and health of a Galera cluster
+```bash
+galera-status
+```
+
 ![](https://shawn0915.github.io/assets/img_mysql/a3/a3-img-03.png)
 
 ## Summary
 
 以上内容仅仅是初步窥探`MariaDB Galera Cluster`，如果需要深入了解，或是想搭建能够投产的集群，则还有一个很长的Todo List。
+
+## SST/IST
+
+State Snapshot Transfer (SST)
+- Percona XtraBackup (Recommended) 
+- rsync 
+- mysqldump 
+
+Incremental State Transfer (IST) using GCache
 
 
 ## Reference
@@ -146,3 +160,4 @@ SHOW STATUS LIKE 'wsrep_%';
 - http://galeracluster.com/products/
 - https://mariadb.com/kb/en/library/mariadb-galera-cluster-known-limitations/
 - https://downloads.mariadb.org/mariadb/repositories/
+- https://github.com/fridim/galera-status
